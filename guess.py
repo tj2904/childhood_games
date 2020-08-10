@@ -1,5 +1,9 @@
 import random
 
+""""
+A simple program that prompts a user to guess a random number and gives clues along the way and a guess countat the end.
+""""
+
 # Get random number to be guessed
 number = random.randrange(1,1001)
 # print(number) # For debugging
