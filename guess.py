@@ -23,4 +23,4 @@ while (guess != number):
 # Congratulate the user when the guess is correct
 if (guess == number):
     print("\nGood work, you've guessed it!")
-    print("You took " + str(guess_count) + " goes to get it.\n")
+    print("\tYou took " + str(guess_count) + " goes to get it.\n")
