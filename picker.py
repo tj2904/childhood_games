@@ -1,4 +1,4 @@
-# Version 1 - Prompts for a colour, then a number before giving a random direction
+# Version 2 - Prompts for a colour, then a number before giving a random direction
 import time # To be able to sleep
 import random # For number generation
 
