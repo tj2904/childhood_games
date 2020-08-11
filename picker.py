@@ -1,4 +1,4 @@
-# Version 2 - Prompts for a colour, then a number before giving a random direction
+# Version 1 - Prompts for a colour, then a number before giving a random direction
 import time # To be able to sleep
 import random # For number generation
 
@@ -12,7 +12,7 @@ def main():
         time.sleep(0.5)
 
     # Prompt for a number - TODO: add validation
-    n = get_postive_int()
+    n = get_positive_int()
     print()
     # Count out slowly
     i = 0
@@ -48,7 +48,7 @@ def main():
 def get_positive_int():
 # If not between 1 and 8 ask again
     while True:
-        n = get_int("\nNow choose a number between 1 and 8: ")
+        n = int(input("\nNow choose a number between 1 and 8: "))
         if n in range(1, 9):
             break
     return n+1
